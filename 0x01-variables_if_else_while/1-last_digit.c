@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - entry point
  * Description: check on the last digit of the assigned var
  * Return: Always 0 (success)
  */
-init main(void)
+int main(void)
 {
 	int n, m;
 
