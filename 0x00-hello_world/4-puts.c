@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
+ *  main - Entry point
  *
- *  *main - Entry point
- *
- *   *Return: o
- *
- *    */
+ *  Return: o
+*/
 
 int main(void)
 
