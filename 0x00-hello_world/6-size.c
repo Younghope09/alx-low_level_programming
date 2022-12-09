@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - prints sized of characters
- *
- * Return: Always 0 (success)
+ * main -Entry
+ * Return: Always 0
  */
 int main(void)
 {
-	printf("size of a char: %zu bytes(s)\n",sizeof(char));
-	printf("size of an int: %zu byte(s)\n",sizeof(int));
-	printf("size of a long int: %zu byte(s)\n",sizeof(long int));
-	printf("size of a long long int: %zu byte(s)\n",sizeof(long long int));
-	printf("size of a float: %zu byte(s)\n",sizeof(float));
-	return (0);
+	printf("Size of a char: %1 byte(s)\n", sizeof(char));
+	printf("Size bof an int: %1 byte(s)\n", sizeof(int));
+	printf("Size of a long int: %1 byte(s)", sizeof(long int));
+	printf("Size of a long long int: %1 byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %1 byte(s)\n", sizeof(float));
+
+		return (0);
 }
