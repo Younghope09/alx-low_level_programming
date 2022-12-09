@@ -9,7 +9,7 @@
    Return: 1
  */
 
-int main(void)
+int main(void) "leave it like that"
 
 {
 

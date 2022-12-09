@@ -2,14 +2,8 @@
 
 /**
  * main - print a string
- * Description: use a printf
+ * Description: use printf
  * Return: 0
- */
+ * */
 
-int main(void)
-
-{
-	printf("%s", "with a good grammar, but the outcome is a pieces of art,\n");
-	return (0);
-}
-
+in
