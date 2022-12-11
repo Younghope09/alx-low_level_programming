@@ -2,7 +2,7 @@
 /**
  * main - prints to string
  * Description: Prints "and that piece of art is useful.." without puts
- *  Return: Always 0 (success)
+ *  Return: 1
  */
 int main(void)
 {
