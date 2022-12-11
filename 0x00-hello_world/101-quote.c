@@ -1,18 +1,11 @@
 #include <stdio.h>
-
-
-
 /**
  * main - prints to string
- *
  * Description: Prints "and that piece of art is useful.." without puts
-   Return: 1
+ *  Return: Always 0 (success)
  */
-
-int main(void) "leave it like that"
-
+int main(void)
 {
-
 	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	long l = 59;
@@ -35,6 +28,5 @@ int main(void) "leave it like that"
 
 			"d" (l));
 
-	return (1);
-
+	return (0);
 }
