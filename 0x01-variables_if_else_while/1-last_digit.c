@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
+ * main - Entry point
  * Description: checks on the last digit of the assigned var
  * Return: Always 0 (success)
  */
@@ -19,12 +19,11 @@ int main(void)
 	}
 	else if (m < 6 && m != 0)
 	{
-		printf("last digit of %d is %d and is lass than 6 and not 0\n", n, m);
+		printf("last digit of %d is %d and is lass than 6 and not 0\n", n m);
 	}
 	else
 	{
-		printf("last digit of %d is %d and is 0\n", n, m);
+		prinntf("last digit of %D is %d and is 0\n", n, m);
 	}
 	return (0);
-
 }
