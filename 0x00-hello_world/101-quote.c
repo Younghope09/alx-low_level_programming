@@ -28,5 +28,5 @@ int main(void)
 
 			"d" (l));
 
-	return (0);
+	return (1);
 }
