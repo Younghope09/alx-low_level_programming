@@ -5,7 +5,7 @@
  *
  * Return: Always (success)
  */
-int main(...101-print_comb4.c)
+int main(void)
 {
 	int c, i, k;
 
