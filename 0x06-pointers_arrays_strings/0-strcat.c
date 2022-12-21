@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * Momoh
+ * Description: Write a function that concatenates two strings.
  * Return: Always 0.
  */
 
