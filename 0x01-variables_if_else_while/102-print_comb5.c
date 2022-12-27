@@ -1,44 +1,47 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
+
 /**
- * main - Entry point
- * Description: prints all possible combination of 2-digit numbers
- * Return: Always 0 (success)
+ * main -main block
+ * Description: This is programme that prints out all posible
+ * different combination of two digits
+ * Return: 0
  */
 int main(void)
 {
-	int c, i, k, j;
+	int c = 0;
+	int f_d;
+	int l_d;
+	int c2;
+	int f_d2;
+	int l_d2;
 
-	for (c = 48; c <= 57; c++)
+	while (c <= 98)
 	{
-		for (i = 48; i <= 57; i++)
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
+		c2 = 0;
+		while (c2 <= 99)
 		{
-			for (k = 48; k <= 57; k++)
-			{
-				for (j = 48; j <= 57; j++)
+			f_d2 = (c2 / 10 + '0');
+			l_d2 = (c2 % 10 + '0');
+				if (c < c2)
 				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
+					putchar(f_d);
+					putchar(l_d);
+					putchar(' ');
+					putchar(f_d2);
+					putchar(l_d2);
+					if (c != 98)
 					{
-						putchar(c);
-						putchar(i);
+						putchar(',');
 						putchar(' ');
-						putchar(k);
-						putchar(j);
-
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
 					}
 				}
+				c2++;
 			}
+			c++;
 		}
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
