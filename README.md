@@ -1,1 +1,1 @@
-# resuming to programming again on pointers, arrays and strings
+# resuming to programming again on pointers, arrays and strings.
