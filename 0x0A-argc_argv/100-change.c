@@ -40,7 +40,7 @@ int main(int argc, char **argv)
 		if (total == 1)
 			count++;
 	}
-	lse
+	else
 	{
 		printf("Error\n");
 		return (1);
