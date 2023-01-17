@@ -23,6 +23,7 @@ int main(int argc, char **argv)
 
 	total = strtol(argv[1], &p, 10);
 	count = 0;
+
 	if (!*p)
 	{
 		while (total > 1)
